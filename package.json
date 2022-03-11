@@ -1,0 +1,14 @@
+{
+  "name": "nft-auction-contract",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2",
+    "@truffle/hdwallet-provider": "^2.0.3"
+  },
+  "scripts": {
+    "deploy": "node scripts/deployContract.js",
+    "copy":"node scripts/contractInfo.js",
+    "deploy-test": "truffle migrate --network rinkeby"
+  }
+}
